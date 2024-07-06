@@ -4,7 +4,7 @@ export default function RandomPokemon() {
     const pokeId = Math.floor(Math.random() * 151) + 1;
     return (
         <div className="RandomPokemon">
-            <h1>Pokemon #{pokeId}</h1>
+            <h1> #{pokeId}</h1>
             {/* <img src={url + "/" + pokeId + ".png"} alt="" /> */}
             <img src={`${url}/${pokeId}.png`} alt="" />
         </div>
